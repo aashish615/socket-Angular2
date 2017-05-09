@@ -1,0 +1,41 @@
+html
+  head
+    title=title
+    include header.pug
+
+  body
+    div.container-fluid(style="margin-top:50px")
+      include nav.pug
+    div.container
+      h1 Here We are showing Deatils
+    div.container-fluid
+         table
+           thead
+             table.table.table-striped.table-bordered.table-hover.table-condensed
+              tr
+               th Id
+               th IsActive
+               th Balance
+               th Image
+               th Age
+               th Eye- Color
+               th Name
+               th company
+               th Email
+               th Phone
+               th Address
+              each val in data
+
+                  tr
+                    td= val._id
+                    td= val.isActive
+                    td= val.balance
+                    td
+                      img(src=val.picture)
+                    td= val.age
+                    td= val.eyeColor
+                    td= val.name.first +" " + val.name.last
+                    td= val.company
+                    td= val.email
+                    td= val.phone
+                    td= val.address

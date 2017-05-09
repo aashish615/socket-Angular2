@@ -1,0 +1,162 @@
+[
+  {
+    "_id": "588706a15d052648f95bcdae",
+    "isActive": true,
+    "balance": "$2,706.46",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Roxie",
+      "last": "Sexton"
+    },
+    "company": "COMTOUR",
+    "email": "roxie.sexton@comtour.biz",
+    "phone": "+1 (886) 444-2271",
+    "address": "971 Tennis Court, Brecon, Arizona, 2448"
+  },
+  {
+    "_id": "588706a173f4dc1d5c2ddb9e",
+    "isActive": true,
+    "balance": "$1,378.57",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Woods",
+      "last": "Arnold"
+    },
+    "company": "REALMO",
+    "email": "woods.arnold@realmo.ca",
+    "phone": "+1 (964) 465-3874",
+    "address": "282 Ainslie Street, Detroit, Rhode Island, 329"
+  },
+  {
+    "_id": "588706a1ca23d663da0ca88c",
+    "isActive": false,
+    "balance": "$3,629.18",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Farmer",
+      "last": "Randall"
+    },
+    "company": "KIOSK",
+    "email": "farmer.randall@kiosk.io",
+    "phone": "+1 (804) 475-2238",
+    "address": "894 Colin Place, Kempton, Alaska, 695"
+  },
+  {
+    "_id": "588706a115f3be4197621f3d",
+    "isActive": false,
+    "balance": "$1,252.98",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Whitley",
+      "last": "Raymond"
+    },
+    "company": "WEBIOTIC",
+    "email": "whitley.raymond@webiotic.me",
+    "phone": "+1 (833) 539-2138",
+    "address": "737 Lyme Avenue, Gilgo, California, 8604"
+  },
+  {
+    "_id": "588706a10555872fcc2add55",
+    "isActive": false,
+    "balance": "$3,669.43",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "green",
+    "name": {
+      "first": "Lorie",
+      "last": "Perry"
+    },
+    "company": "ANDERSHUN",
+    "email": "lorie.perry@andershun.biz",
+    "phone": "+1 (980) 403-2063",
+    "address": "297 Monroe Street, Fairfield, New York, 5299"
+  },
+  {
+    "_id": "588706a191ea47cd0ef1236f",
+    "isActive": false,
+    "balance": "$1,478.33",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Torres",
+      "last": "Washington"
+    },
+    "company": "CYTREK",
+    "email": "torres.washington@cytrek.info",
+    "phone": "+1 (975) 426-3611",
+    "address": "510 Hewes Street, Ironton, Montana, 7916"
+  },
+  {
+    "_id": "588706a153aec39f887ee738",
+    "isActive": false,
+    "balance": "$2,647.97",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Antoinette",
+      "last": "Robbins"
+    },
+    "company": "ETERNIS",
+    "email": "antoinette.robbins@eternis.net",
+    "phone": "+1 (927) 432-3152",
+    "address": "533 Gardner Avenue, Belva, Vermont, 9758"
+  },
+  {
+    "_id": "588706a1e454adcc5d5d22cc",
+    "isActive": false,
+    "balance": "$2,823.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Jami",
+      "last": "Decker"
+    },
+    "company": "PRIMORDIA",
+    "email": "jami.decker@primordia.org",
+    "phone": "+1 (823) 498-3824",
+    "address": "166 Greene Avenue, Elrama, Connecticut, 2119"
+  },
+  {
+    "_id": "588706a10800c5a79d22e3db",
+    "isActive": true,
+    "balance": "$2,238.40",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Noelle",
+      "last": "Henry"
+    },
+    "company": "DANCERITY",
+    "email": "noelle.henry@dancerity.tv",
+    "phone": "+1 (962) 471-2705",
+    "address": "685 Sumpter Street, Rushford, District Of Columbia, 2886"
+  },
+  {
+    "_id": "588706a15304d472970ae214",
+    "isActive": false,
+    "balance": "$2,832.41",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Wilson",
+      "last": "Mcdowell"
+    },
+    "company": "KRAG",
+    "email": "wilson.mcdowell@krag.co.uk",
+    "phone": "+1 (899) 427-3096",
+    "address": "685 India Street, Summertown, Palau, 1911"
+  }
+]

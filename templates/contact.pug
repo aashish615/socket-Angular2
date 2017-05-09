@@ -1,0 +1,46 @@
+html
+  head
+    title=title
+    include header.pug
+
+  body
+    .container-fluid
+      include nav.pug
+
+    .container-fluid(style="margin-top:70px")
+      .row
+        .col-sm-6
+           |Contact Us
+           hr
+           address
+            .strong.h1 Ashish Pvt Ltd
+              br
+              |111,Plot No 45
+              br
+              |Noida Sector-62
+              br
+              |Phn no -+91 9716052171
+        .col-sm-6
+          .panel.panel-primary
+            .panel-heading
+              .panel-title  Contact Us
+            .panel-body
+              form(method="POST" )
+                .form-group
+                  label Name
+                  input.form-control(type="text" placeholder="name", name="name_")
+                .form-group
+                  label(for='exampleInputEmail1') Email address
+                  input#exampleInputEmail1.form-control(type='email', placeholder='Email',name="email_")
+                .form-group
+                  label(for="website1") Your Website
+                  input#website1.form-control(type="text",placeholder="website if any",name="website_")
+                .form-group
+                  label(for="message1") Any Message
+                  input#message1.form-control(type="text", placeholder="any message",style="height:100px",name="message_")
+                .form-group
+                  label(for="checkbox1") Remember
+                  input#checkbox1.form-control(type="checkbox", placeholder="Checkbox" )
+                .form-group
+                  label(for="submit1") Submit
+                  input#submit1.form-control(type="submit", placeholder="Submit" )

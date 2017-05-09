@@ -1,0 +1,71 @@
+.navbar.btn-primary.navbar-inverse.navbar-fixed-top(data-spy='affix', data-offset-top='197', style="font-size:20px")
+  .container-fluid
+    .navbar-header
+      img.img-responsive.img-thumbnail(src="/images/logo.jpg" width="50px")
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#ashish1')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #ashish1.collapse.navbar-collapse
+      // This is for toggle menu button show
+      ul.nav.navbar-nav
+        li
+          a(href='/') Home
+        li
+          a(href='/about') About Us
+        li
+          a(href='/services') Services
+        li
+          a(href='/price') Price
+        //- li
+        //-   a(href='#biography1') Biography
+        //- li.dropdown
+        //-   a#dropButton.dropdown-toggle(href='#', data-toggle='dropdown')
+        //-     | News
+        //-     span.caret
+        //-   ul.dropdown-menu
+        //-     li
+        //-       a(href='#feedback1') Feedback
+        //-     li
+        //-       a(href='#oldNews1') Old News
+        //- li
+        //-   a(href='#sports1') Sports
+      ul.nav.navbar-nav.navbar-right
+        li
+          a(href='/contact')
+            span.glyphicon.glyphicon-modal-window
+            |  Contact Us
+        li
+          a#mySignUpAnchor(href='/modal')
+            span.glyphicon.glyphicon-user
+            |  Login/Register
+        //- li
+        //-   a#myAnchor(href='#')
+        //-     span.glyphicon.glyphicon-log-in
+        //-     |  Sign In
+
+//- .navbar.btn-primary.navbar-fixed-bottom
+//-   .container-fluid
+//-     .navbar-footer
+//-       .row
+//-         .col-sm-4
+//-             a.navbar-brand(href='/about',style="color:white") Ashish Pvt Ltd
+//-         .col-sm-4
+//-
+//-             h3.text-center
+//-               | Copyright ©
+//-               script.
+//-                 document.write(new Date().getFullYear());
+//-               | ,
+//-               |  All rights reserved Cling Wires private Limited
+//-
+//-         //- .col-sm-5
+//-         //-     ul.list-group(style="display:block")
+//-         //-
+//-         //-       li Custom Web Development
+//-         //-       li Portal Development
+//-         //-       li CMS Web Development
+//-         //-       li  Payment Gateway Development
+//-         //- .col-sm-3
+//-         //-   img.img-responsive.img-circle(src='images/men.jpg', width='70px', height='50px', style='margin:10px')
+//-         //-   a.btn.btn-success(href='#') Subscribe me on Youtube/ Facebook/ Linkdin

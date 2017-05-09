@@ -1,0 +1,44 @@
+html
+  head
+    title=title
+    include header.pug
+
+  body
+    .container-fluid
+      include nav.pug
+    .h1.strong(style="margin-top:60px") Customer Data
+    div.container-fluid
+         table
+           thead
+             table.table.table-striped.table-bordered.table-hover.table-condensed
+              tr
+               th Name
+               th Email
+               th age
+               th Image
+               th Activate/DeActivate
+               th View Full Records
+              each val in data
+                tr
+                  td= val.name.first +" " + val.name.last
+                  td= val.email
+                  td= val.age
+                  td
+                    img(src=val.picture)
+                  //- td=val.isActive
+                  td
+                    p=val.isActive ? "Acive" : "deactivate"
+
+                  td
+                     a.view(href="/show?id=" + val._id+ "&age="+val.age) View
+
+  div
+  | To insert multiline text,
+  | You can use the pipe operator.
+  | now i got it
+  br
+  div.
+      But that gets tedious if you have a lot of text.
+      You can use "." at the end of tag to denote block of text.
+      To put tags inside this block, simply enter tag in a new line and
+      indent it accordingly.

@@ -1,0 +1,160 @@
+html
+  head
+    title=title
+    include header.pug
+
+  body
+    include nav.pug
+    .container-fluid.jumbotron(style="margin-top:50px")
+      .row
+        .col-sm-1
+            img.img-responsive.img-thumbnail(src="/images/logo.jpg" width="100px")
+        .col-sm-11
+            h3.strong.text-danger(style="text-decoration:underline")
+              |Our Company Services
+    .container
+        h2.text-primary
+          |Web Development Services Portfolio of Misha Infotech
+        p.text-danger
+          |Our Company has over time expanded its width of expertise and experience over web development solutions to achieve quality leadership in the market. The company has taken up, developed and deployed complex web based projects for clients to perfectly fit into the templates of their business requirements. Since its inception Misha Infotech has improvised, institutionalized and sustained excellence in the domain of web services. Categorized as services the portfolio of Misha Infotech consists of:
+
+    .container
+
+        #accordian1.panel-group
+          .panel.panel-warning
+            .panel-heading
+              h4.panel-title
+                .row
+                  .col-sm-10
+                    a(href='#A1', data-parent='#accordian1', data-toggle='collapse')
+                      | Services 1
+                  .col-sm-1
+                    // if we use in method<span class="btn btn-warning" pull-right>Accordion</span>
+                    span.btn.btn-warning(pull-right='') Accordion
+
+            #A1.panel-collapse.collapse
+              .panel-body
+                | Fans on their feet as MSD fires in last game as India captain
+                ul.list-group
+                  li.list-group-item Mahendra Singh Dhoni
+                  li.list-group-item Virat Kholi
+                  li.list-group-item Rohit Sharma
+                #Date
+          .panel.panel-warning
+            .panel-heading
+              h4.panel-title
+                .row
+                  .col-sm-10
+                    a(href='#A2', data-toggle='collapse', data-parent='#accordian1')
+                      | Services 2
+                  .col-sm-1
+                    span.btn.btn-warning Accordion
+            #A2.panel-collapse.collapse
+              .panel-body
+                | "We were the No 1 side, won two World Cups and I think these are like amazing achievements. I am not sure how many captains have that. He has been very calm and composed.
+                br
+                |                   "We were the No 1 side, won two World Cups and I think these are like amazing achievements. I am not sure how many captains have that. He has been very calm and composed.
+                br
+                |                    "We were the No 1 side, won two World Cups and I think these are like amazing achievements. I am not sure how many captains have that. He has been very calm and composed.
+                br
+                ul
+                  li This is the first heading
+                  li This is the first heading
+                  li This is the first heading
+                #Date1
+          .panel.panel-warning
+            .panel-heading
+              h4.panel-title
+                .row
+                  .col-sm-10
+                    a(href='#A3', data-toggle='collapse', data-parent='#accordian1')
+                      | Services 3
+                  .col-sm-1
+                    span.btn.btn-warning Accordion
+            #A3.panel-collapse.collapse
+              .panel-body
+                | The Ranchi superstar and captain of the 2007 World T20 and 2011 World Cup winning squads was leading the India A side in the first of two warm-up matches to be played by the tourists here.
+                br
+                |                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                br
+                ul
+                  li
+                    | when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                  li
+                    | It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  li
+                    | It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                #Date2
+
+    .container
+          .panel.panel-primary
+            .panel-heading
+              .panel-title
+                |LAMP (LINUX, APACHE, PHP, MySQL)
+            .panel-body
+               .dl-horizontal
+                  dt  AJAX Framework:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Framework:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Database:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Open Source:
+                    dd Prototype, JQuery, Yahoo UI Library
+          .panel.panel-primary
+            .panel-heading
+              .panel-title
+                |Microsoft ASP.NET (C# & VB.NET)
+            .panel-body
+               .dl-horizontal
+                  dt  AJAX Framework:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Framework:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Database:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Open Source:
+                    dd Prototype, JQuery, Yahoo UI Library
+          .panel.panel-primary
+            .panel-heading
+              .panel-title
+                |Mobile (iOS/Android/Windows/Blackberry)
+            .panel-body
+               .dl-horizontal
+                  dt  AJAX Framework:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Framework:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Database:
+                  dd Prototype, JQuery, Yahoo UI Library
+                  dt  Open Source:
+                    dd Prototype, JQuery, Yahoo UI Library
+
+    .container
+        ul.list-group
+          li.list-group-item.list-group-item-danger Custom Web Development
+          li.list-group-item.list-group-item-info Portal Development
+          li.list-group-item.list-group-item-warning CMS Web Development
+          li.list-group-item.list-group-item-danger Payment Gateway Development
+
+
+
+
+
+
+                  // End According show with button succes and warning
+                  // For Date
+                  script(type='text/javascript').
+                    var monthNames = [ "January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December" ];
+                    var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+                    var newDate = new Date();
+                    newDate.setDate(newDate.getDate() - 1);
+                    var newDateToday = new Date();
+                    newDateToday.setDate(newDateToday.getDate());
+                    var newDateTommorow = new Date();
+                    newDateTommorow.setDate(newDateTommorow.getDate() + 1);
+                    $('#Date').html("<u><strong>Last Update </strong></u> : " +dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+                    $('#Date1').html("<u><strong>Today Update </strong></u> : " +dayNames[newDateToday.getDay()] + " " + newDateToday.getDate() + ' ' + monthNames[newDateToday.getMonth()] + ' ' + newDateToday.getFullYear());
+                    $('#Date2').html("<u><strong>Remaining news will update on tommorrow </strong></u> : " +dayNames[newDateTommorow.getDay()] + " " + newDateTommorow.getDate() + ' ' + monthNames[newDateTommorow.getMonth()] + ' ' + newDateTommorow.getFullYear());
+                  // End For Date
